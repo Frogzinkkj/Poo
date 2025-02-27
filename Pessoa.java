@@ -1,12 +1,18 @@
+//Criando Uma classe 
 public class Pessoa{
 
-  String nome, cpf ,end,email;
-  int idade;
+  //Criando Atributos para a classe(caracteristicas)
+  public int idade;
   String telefone;
   Pessoa paiPessoa;
   Pessoa maePessoa;
 
+  //Definindo Status Public, Protected e private do Atributo
+  public String nome,email;
+  private String cpf;
+  protected String end;
 
+//Criando metodos para a classe (Funcôes / Açôes)
   void escreverNome(){
     
     System.out.println(nome);
@@ -14,7 +20,7 @@ public class Pessoa{
   }
   void escreverIdade(){
 
-    System.out.println(idade);
+    System.out.println("Você tem "+idade+" anos");
 
   }
   int retornarIdade(){
