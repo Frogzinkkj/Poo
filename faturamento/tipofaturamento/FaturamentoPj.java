@@ -4,7 +4,7 @@ import faturamento.Faturamento;
 
 public class Faturamentocnpj extends Faturamento {
 
-  public Faturamentocnpj(int mesFaturamento) {
+  public Faturamentocnpj(int mesFaturamento, Float valorFaturamento) {
     super(mesFaturamento);
   }
   
